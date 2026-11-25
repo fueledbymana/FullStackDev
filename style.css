@@ -1,0 +1,187 @@
+:root{
+  --navy: #374375;
+  --cloud: #FFFCF5;
+  --periwinkle: #BABDE2;
+  --maroon: #895159;
+  --peach: #DFAEA1;
+
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --mono:  ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans:  system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4473b7;
+}
+.site-header{
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.nav{
+    display: flex;
+}
+.nav-logo{
+    width: 50%;
+    height: auto;
+}
+
+.nav-logo img{
+    width: 150px;
+    height: auto;
+}
+.nav-links{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    transition: all 0.2s ease-in;
+}
+.nav-links a:hover{
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.hero-text{
+    font-family: 'Space Mono', monospace;
+    width: 50%;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 0;
+}
+.hero-text h2{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0;
+    margin-bottom:10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.1s ease-in;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.hero-image{
+    width: 50%;
+    height: auto;
+}
+.hero-image img{
+    width: 100%;
+    height: auto;
+}
+#courses{
+    padding: 40px 60px;
+}
+#courses h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  flex: 1;
+  background-color: var(--cloud);
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.card h3 {
+  color: var(--navy);
+  font-family: var(--serif);
+}
+.card p {
+  color: var(--maroon);
+}
+
+#about{
+    padding: 0px 60px;
+}
+
+#about h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+}
+
+#about p{
+    font-family: var(--serif);
+    font-size: 18px;
+}
+footer{
+    color: rgb(247, 246, 246);
+    padding: 60px;
+    font-family: var(--mono);
+    font-style: italic;
+    text-align: right;
+}
+#contact{
+    padding: 0px 60px;
+}
+#contact h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+}
+#contact p{
+    font-family: var(--serif);
+    font-size: 18px;
+    margin:0;
+}
+#contact ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+#contact a{
+    text-decoration: none;
+}
